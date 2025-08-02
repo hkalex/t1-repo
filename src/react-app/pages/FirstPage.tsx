@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Calculator } from "../../shared/src/Calculator"
+import { Calculator } from "../../shared/src/Calculator";
 
 const FirstPage: React.FC = () => {
     const navigate = useNavigate();
@@ -13,7 +13,8 @@ const FirstPage: React.FC = () => {
     const [sum, setSum] = React.useState<number | null>(null);
 
     const handleSum = () => {
-        var result = Calculator.add(num1, num2);
+        var calculator = new Calculator();
+        var result = calculator.add(num1, num2);
         setSum(result);
     };
 
