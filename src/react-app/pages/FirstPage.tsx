@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-// import { Calculator } from "../../../shared/src/Calculator";
-import { Calculator } from "./Calculator"; // Symbolic link
+import { Calculator } from "../../../shared/src/Calculator";
+//import { Calculator } from "./Calculator"; // Symbolic link
 
 const FirstPage: React.FC = () => {
     const navigate = useNavigate();
@@ -22,7 +22,7 @@ const FirstPage: React.FC = () => {
     return (
         <div>
             <h1>First Page in T1-Repo</h1>
-            <h2>Symbolic link</h2>
+            {/* <h2>Symbolic link</h2> */}
             <div>
                 <input
                     type="number"
