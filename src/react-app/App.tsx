@@ -23,8 +23,8 @@ function App() {
         <Route path="/" element={<FirstPage />} />
         <Route path="/first" element={<FirstPage />} />
         <Route path="/second" element={<SecondPage />} />
-        <Route path="/third" element={<ThirdPagePage />} />
-        <Route path="/fourth" element={<FourthPagePage />} />
+        <Route path="/third" element={<ThirdPage />} />
+        <Route path="/fourth" element={<FourthPage />} />
         <Route
           path="/about"
           element={
