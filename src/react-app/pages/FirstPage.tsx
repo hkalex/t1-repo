@@ -22,6 +22,7 @@ const FirstPage: React.FC = () => {
     return (
         <div>
             <h1>First Page in T1-Repo</h1>
+            <h2>Symbolic link</h2>
             <div>
                 <input
                     type="number"
