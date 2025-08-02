@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Calculator } from "../../shared/src/Calculator";
+import { Calculator } from "../../../shared/src/Calculator";
 
 const FirstPage: React.FC = () => {
     const navigate = useNavigate();
