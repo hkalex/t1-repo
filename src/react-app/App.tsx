@@ -1,21 +1,16 @@
 // src/App.tsx
 
-import { useState } from "react";
+//import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import cloudflareLogo from "./assets/Cloudflare_Logo.svg";
-import honoLogo from "./assets/hono.svg";
 import "./App.css";
 import FirstPage from "./pages/FirstPage";
-import React from 'react';
 import SecondPage from "./pages/SecondPage";
 import ThirdPage from "./pages/ThirdPage";
 import FourthPage from "./pages/FourthPage";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [name, setName] = useState("unknown");
+  // const [count, setCount] = useState(0);
+  // const [name, setName] = useState("unknown");
 
   return (
     <BrowserRouter>
